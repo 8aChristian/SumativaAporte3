@@ -1,0 +1,36 @@
+ion-card {
+    border-radius: 1rem;
+    margin: 1rem;
+  
+    ion-card-header {
+      background-color: #eb0808ee; /* Color de fondo del encabezado */
+      color: #fff; /* Color del texto del encabezado */
+      font-weight: bold;
+      text-align: center;
+      padding: 1rem;
+    }
+  
+    ion-card-content {
+      ion-grid {
+        ion-row {
+          ion-col {
+            padding: 1rem;
+  
+  
+            div {
+              margin-top: 1rem;
+              font-size: 0.875rem;
+              line-height: 1.4;
+            }
+          }
+        }
+      }
+    }
+}
+.news-image {
+  --width: 10rem;
+  --max-width: 5rem; /* Ancho máximo en pantallas pequeñas */
+  height: auto;
+  display: block;
+  margin: 0 auto; /* Centrar la imagen en pantallas pequeñas */
+}

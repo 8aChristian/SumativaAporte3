@@ -1,0 +1,13 @@
+/* Estilos globales o en tu hoja de estilos específica */
+
+.daily-bugle-header ion-toolbar {
+    --background: #ff0000; /* Fondo rojo */
+    --color: #ffffff; /* Texto blanco */
+    text-align: center;
+  }
+  
+  .daily-bugle-header ion-title {
+    font-size: 1.5rem; /* Tamaño grande del texto */
+    font-weight: bold;
+  }
+  
